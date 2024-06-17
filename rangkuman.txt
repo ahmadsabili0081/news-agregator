@@ -1,0 +1,4 @@
+service adalah sebuah function dimana didalam function tersebut akan terjadi sebuah pemanggilan dari end point, dan akan langsung me return data dari dari endpoint tersebut
+
+link : link di sini adalah sebuah komponen pengganti dari  tag a. 
+alasannya : link dari react router dom, melakukan perubahan root berdasarkan kaidah SPA(single page application). atau client site routing yang tidak dapat dilakukan dengan mudah jika hanya menggunakan tag a
