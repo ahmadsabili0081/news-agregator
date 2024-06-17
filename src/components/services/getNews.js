@@ -6,7 +6,7 @@ export const getNews = async (searchQuery) => {
     let query = `?q=${searchQuery}&apiKey=c5cc47d9dac946298389429b4ed1bb57`;
     const endPointUrl = `https://newsapi.org/v2${path}${query}`;
 
-    const res = await axios.get(endPointUrl);
+    const res = await axios.get(`https://newsapi.org/v2${path}${query}`);
 
     if (res.status === 200) {
       const additionalObj = {
