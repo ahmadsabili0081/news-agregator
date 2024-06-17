@@ -13,7 +13,6 @@ function App() {
   const [error, setError] = useState(false);
 
   let { id } = useParams();
-
   let defaultParams = "apple";
 
   useEffect(() => {
